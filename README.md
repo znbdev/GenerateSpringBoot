@@ -46,9 +46,9 @@ chmod +x build-maven-project.sh
 ```shell
 chmod +x start-springboot.sh
 # gradle
-./start-springboot.sh springboot-project springboot-project gradle
+./start-springboot.sh springboot-project gradle
 # maven
-./start-springboot.sh springboot-project springboot-project maven
+./start-springboot.sh springboot-project maven
 ```
 
 # Reference
