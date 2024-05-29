@@ -51,5 +51,10 @@ chmod +x start-springboot.sh
 ./start-springboot.sh springboot-project maven
 ```
 
+### Tail the SpringBoot project log
+```shell
+tail -f springboot-project/target/output.log
+```
+
 # Reference
 
