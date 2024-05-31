@@ -15,12 +15,15 @@ This is a group of scripts to generate a SpringBoot project.
 
 # Generate a SpringBoot project
 
+Projcet name: `springboot-project`
+
 ### Give the script executable permissions
 
 ```shell
 chmod +x generate-springboot-project.sh
 chmod +x build-gradle-project.sh
 chmod +x build-maven-project.sh
+chmod +x start-springboot.sh
 ```
 
 ### Run the script to generate the SpringBoot project
@@ -44,7 +47,6 @@ chmod +x build-maven-project.sh
 ### Run the SpringBoot project
 
 ```shell
-chmod +x start-springboot.sh
 # gradle
 ./start-springboot.sh springboot-project gradle
 # maven
@@ -52,8 +54,9 @@ chmod +x start-springboot.sh
 ```
 
 ### Tail the SpringBoot project log
+
 ```shell
-tail -f springboot-project/target/output.log
+tail -f springboot-project/output.log
 ```
 
 # Reference
